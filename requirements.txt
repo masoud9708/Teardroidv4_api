@@ -2,3 +2,4 @@ fastapi==0.79.0
 deta
 python-multipart
 fastapi-jwt-auth
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
